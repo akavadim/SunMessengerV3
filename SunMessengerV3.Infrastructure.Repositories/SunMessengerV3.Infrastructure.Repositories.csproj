@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SunMessengerV3.Domain\SunMessengerV3.Domain.Core.csproj" />
+    <ProjectReference Include="..\SunMessengerV3.Infrastructure.Data\SunMessengerV3.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
